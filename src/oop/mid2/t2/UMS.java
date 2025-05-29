@@ -62,12 +62,13 @@ public class UMS {
      */
     private List<LearningCourse> getArgusCourses() {
         List<LearningCourse> argusCourses = new ArrayList<>();
-        argusCourses.add(new LearningCourse("Mathematical Foundation of Computing (ENG)", "Basic Mathematics", "Logic, Set Theory, Functions"));
-        argusCourses.add(new LearningCourse("Computer Organization (ENG)", "Introduction to Computing", "CPU Architecture, Memory"));
-        argusCourses.add(new LearningCourse("Object Oriented Programming (ENG)", "Programming Basics", "Classes, Inheritance, Polymorphism"));
-        argusCourses.add(new LearningCourse("English Language Course C1-2 (ENG)", "English B2 Level", "Advanced Grammar, Writing"));
-        argusCourses.add(new LearningCourse("Calculus II (ENG)", "Calculus I", "Integration Techniques, Series"));
+        argusCourses.add(new LearningCourse("Mathematical Foundation of Computing (ENG)", "Basic Mathematics", "Mathematical Logic, Elements of Discrete Mathematics, Elements of Sets Theory, Elements of Graph Theory, Elements of Combinatorics, Elements of Digital Systems"));
+        argusCourses.add(new LearningCourse("Computer Organization (ENG)", "Introduction to Computing", "Machine-level representations of programs, Optimizing program performance, The memory hierarchy"));
+        argusCourses.add(new LearningCourse("Object Oriented Programming (ENG)", "Programming Basics", "Java syntax and data structures, Procedural programming, Classes, Encapsulation, polymorphism, inheritance, Packages, Working with the network, Work with files, Working with text data, Work with the terminal"));
+        argusCourses.add(new LearningCourse("English Language Course C1-2 (ENG)", "English B2 Level", "None"));
+        argusCourses.add(new LearningCourse("Calculus II (ENG)", "Calculus I", "Antiderivatives, Definite integrals, Techniques and applications of integration, Improper integrals, Infinite series"));
 
         return argusCourses;
     }
 }
+
