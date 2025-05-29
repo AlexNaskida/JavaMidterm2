@@ -27,3 +27,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore IntelliJ module file
+Midterm2.iml
